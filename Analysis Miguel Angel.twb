@@ -1,0 +1,2031 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (cleaned_sorted_data_salaries_2024)' inline='true' name='federated.10xq3zz1x7dloa111qu8v1atzqmx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cleaned_sorted_data_salaries_2024' name='excel-direct.14qc7jn1p9hm9v1dnxv8a0iqpm33'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Bootcamp/Desktop/Bootcamp/Python/W3/project data_science_job/cleaned_sorted_data_salaries_2024.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.14qc7jn1p9hm9v1dnxv8a0iqpm33' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:K14839:no:A1:K14839:0' header='yes' outcome='2'>
+            <column datatype='string' name='work_year' ordinal='0' />
+            <column datatype='string' name='experience_level' ordinal='1' />
+            <column datatype='string' name='employment_type' ordinal='2' />
+            <column datatype='string' name='job_title' ordinal='3' />
+            <column datatype='integer' name='salary' ordinal='4' />
+            <column datatype='string' name='salary_currency' ordinal='5' />
+            <column datatype='integer' name='salary_in_usd' ordinal='6' />
+            <column datatype='string' name='employee_residence' ordinal='7' />
+            <column datatype='integer' name='remote_ratio' ordinal='8' />
+            <column datatype='string' name='company_location' ordinal='9' />
+            <column datatype='string' name='company_size' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K14839:no:A1:K14839:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>work_year</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[work_year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>work_year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>experience_level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[experience_level]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>experience_level</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>employment_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[employment_type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>employment_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[job_title]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>job_title</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>salary</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[salary]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>salary</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>salary_currency</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[salary_currency]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>salary_currency</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>salary_in_usd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[salary_in_usd]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>salary_in_usd</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>employee_residence</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[employee_residence]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>employee_residence</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>remote_ratio</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[remote_ratio]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>remote_ratio</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company_location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[company_location]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>company_location</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company_size</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[company_size]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>company_size</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]&quot;' value='Avg' />
+          <alias key='&quot;[federated.10xq3zz1x7dloa111qu8v1atzqmx].[max:salary_in_usd:qk]&quot;' value='Max' />
+          <alias key='&quot;[federated.10xq3zz1x7dloa111qu8v1atzqmx].[min:salary_in_usd:qk]&quot;' value='Min' />
+        </aliases>
+      </column>
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_F90895CAF19540158184647B083C92AA]' role='measure' type='quantitative' />
+      <column caption='Company Location' datatype='string' name='[company_location]' role='dimension' type='nominal' />
+      <column caption='Company Size' datatype='string' name='[company_size]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;L&quot;' value='Large' />
+          <alias key='&quot;M&quot;' value='Medium' />
+          <alias key='&quot;S&quot;' value='Short' />
+        </aliases>
+      </column>
+      <column caption='Employee Residence' datatype='string' name='[employee_residence]' role='dimension' type='nominal' />
+      <column caption='Employment Type' datatype='string' name='[employment_type]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;FL&quot;' value='Freelance' />
+          <alias key='&quot;FT&quot;' value='Full Time' />
+          <alias key='&quot;PT&quot;' value='Part Time' />
+        </aliases>
+      </column>
+      <column caption='Experience Level' datatype='string' name='[experience_level]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;EN&quot;' value='Entry' />
+          <alias key='&quot;MI&quot;' value='Mid' />
+          <alias key='&quot;SE&quot;' value='Senior' />
+        </aliases>
+      </column>
+      <column caption='Job Title' datatype='string' name='[job_title]' role='dimension' type='nominal' />
+      <column caption='Remote Ratio' datatype='integer' name='[remote_ratio]' role='measure' type='quantitative' />
+      <column caption='Salary' datatype='integer' name='[salary]' role='measure' type='quantitative' />
+      <column caption='Salary Currency' datatype='string' name='[salary_currency]' role='dimension' type='nominal' />
+      <column caption='Salary In Usd' datatype='integer' name='[salary_in_usd]' role='measure' type='quantitative' />
+      <column caption='Work Year' datatype='string' name='[work_year]' role='dimension' type='nominal' />
+      <column-instance column='[experience_level]' derivation='Attribute' name='[attr:experience_level:nk]' pivot='key' type='nominal' />
+      <column-instance column='[salary_in_usd]' derivation='Avg' name='[avg:salary_in_usd:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[salary_in_usd]' derivation='Max' name='[max:salary_in_usd:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[experience_level]' derivation='Min' name='[min:experience_level:nk]' pivot='key' type='nominal' />
+      <column-instance column='[salary_in_usd]' derivation='Min' name='[min:salary_in_usd:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[experience_level]' derivation='None' name='[none:experience_level:nk]' pivot='key' type='nominal' />
+      <column-instance column='[job_title]' derivation='None' name='[none:job_title:nk]' pivot='key' type='nominal' />
+      <column-instance column='[remote_ratio]' derivation='None' name='[none:remote_ratio:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[work_year]' derivation='None' name='[none:work_year:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='es_ES' class='hyper' dbname='C:/Users/Bootcamp/AppData/Local/Temp/TableauTemp/#TableauTemp_1798y3p0lzqf9o1285m391vkod1x.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/05/2024 01:49:45 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>work_year</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[work_year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>work_year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>experience_level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[experience_level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>experience_level</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>employment_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[employment_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>employment_type</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>job_title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[job_title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>job_title</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>140</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>salary</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[salary]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>salary</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1506</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>salary_currency</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[salary_currency]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>salary_currency</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>salary_in_usd</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[salary_in_usd]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>salary_in_usd</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1650</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>employee_residence</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[employee_residence]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>employee_residence</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>84</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>remote_ratio</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[remote_ratio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>remote_ratio</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>company_location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[company_location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>company_location</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>78</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>company_size</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[company_size]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>company_size</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <object-id>[Sheet1_F90895CAF19540158184647B083C92AA]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.10xq3zz1x7dloa111qu8v1atzqmx].[max:salary_in_usd:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.10xq3zz1x7dloa111qu8v1atzqmx].[min:salary_in_usd:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[attr:experience_level:nk]' palette='tableau10_10_0' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;EN&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SE&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MI&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[min:experience_level:nk]' palette='tableau10_10_0' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;EN&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SE&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MI&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:remote_ratio:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>50</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>100</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:experience_level:nk]' palette='purple_pink_gray_10_0' type='palette'>
+            <map to='#8074a8'>
+              <bucket>&quot;EN&quot;</bucket>
+            </map>
+            <map to='#c46487'>
+              <bucket>&quot;SE&quot;</bucket>
+            </map>
+            <map to='#c6c1f0'>
+              <bucket>&quot;MI&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:work_year:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;2020&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;2024&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;2023&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2021&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:job_title:nk]' palette='summer_10_0' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;AI_Scientist&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Business_Intelligence&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Data_Analytics_Consultant&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Data_Operations_Analyst&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Data_Science_Tech_Lead&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Head_of_Machine_Learning&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Marketing_Data_Engineer&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sales_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Admin_&amp;_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;BI_Analyst&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Computational_Biologist&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Data_Integration_Specialist&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Director_of_Data_Science&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Machine_Learning_Research_Engineer&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Product_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;AI_Product_Manager&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Big_Data_Architect&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CRM_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Data_Management_Specialist&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Data_Science&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Data_Science_Engineer&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Finance_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Machine_Learning_Specialist&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Research_Engineer&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Applied_Data_Scientist&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Business_Intelligence_Engineer&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Data_Analytics_Specialist&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Data_Operations_Specialist&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Data_Strategist&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Lead_Data_Scientist&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MLOps_Engineer&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Staff_Machine_Learning_Engineer&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;AI_Software_Engineer&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Business_Intelligence_Analyst&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Data_Analytics_Engineer&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Data_Operations_Associate&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Insight_Analyst&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Marketing_Data_Scientist&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Software_Data_Engineer&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;AI_Programmer&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Big_Data_Developer&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Data_Manager&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Data_Science_Lead&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Financial_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Manager_Data_Management&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Research_Scientist&quot;</bucket>
+            </map>
+            <map to='#8fb202'>
+              <bucket>&quot;Data_Scientist&quot;</bucket>
+            </map>
+            <map to='#97cfd0'>
+              <bucket>&quot;Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;AWS_Data_Architect&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Cloud_Database_Engineer&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Data_Integration_Developer&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Data_Quality_Manager&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Deep_Learning_Engineer&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Machine_Learning_Modeler&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Principal_Data_Scientist&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AI_Architect&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;BI_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Computer_Vision_Engineer&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Data_Lead&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Data_Science_Analyst&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Encounter_Data_Management_Professional&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Machine_Learning_Researcher&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prompt_Engineer&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Applied_Scientist&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Cloud_Data_Architect&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Data_Engineer&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Data_Quality_Analyst&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Data_Visualization_Specialist&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Machine_Learning_Infrastructure_Engineer&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Principal_Data_Architect&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AI_Research_Engineer&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Big_Data_Engineer&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Data_Analyst_Lead&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Data_Modeler&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Data_Science_Manager&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Head_of_Data&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Managing_Director_Data_Science&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Robotics_Engineer&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Applied_Machine_Learning_Engineer&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Business_Intelligence_Lead&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Data_Architect&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Data_Pipeline_Engineer&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Data_Strategy_Manager&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lead_Machine_Learning_Engineer&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;NLP_Engineer&quot;</bucket>
+            </map>
+            <map to='#cf3e53'>
+              <bucket>&quot;Machine_Learning_Scientist&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Applied_Machine_Learning_Scientist&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Business_Intelligence_Manager&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Data_Developer&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Data_Product_Manager&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Data_Visualization_Analyst&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Machine_Learning_Developer&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Power_BI_Developer&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Autonomous_Vehicle_Technician&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cloud_Data_Engineer&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Data_Infrastructure_Engineer&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Data_Quality_Engineer&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Decision_Scientist&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Machine_Learning_Manager&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Principal_Data_Engineer&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Azure_Data_Engineer&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Compliance_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Data_Integration_Engineer&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Data_Reporting_Analyst&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Deep_Learning_Researcher&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Machine_Learning_Operations_Engineer&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Principal_Machine_Learning_Engineer&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Analytics_Engineer&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Business_Intelligence_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Data_Analytics_Lead&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Data_Operations_Engineer&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Data_Scientist_Lead&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lead_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ML_Engineer&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Staff_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;AI_Research_Scientist&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Business_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Data_Analytics_Associate&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Data_Modeller&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Data_Science_Practitioner&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Head_of_Data_Science&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Marketing_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Robotics_Software_Engineer&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AI_Developer&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BI_Data_Engineer&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Computer_Vision_Software_Engineer&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Data_Management_Analyst&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Data_Science_Consultant&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ETL_Developer&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Quantitative_Research_Analyst&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Applied_Research_Scientist&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Business_Intelligence_Specialist&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Data_DevOps_Engineer&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Data_Product_Owner&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Data_Visualization_Engineer&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Machine_Learning_Engineer&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Principal_Data_Analyst&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Analytics_Engineering_Manager&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Business_Intelligence_Developer&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Data_Analytics_Manager&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Data_Operations_Manager&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Data_Specialist&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Lead_Data_Engineer&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ML_Ops_Engineer&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Staff_Data_Scientist&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AI_Engineer&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BI_Developer&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Consultant_Data_Engineer&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Data_Management_Consultant&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Data_Science_Director&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ETL_Engineer&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Machine_Learning_Software_Engineer&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Research_Analyst&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_F90895CAF19540158184647B083C92AA'>
+            <properties context=''>
+              <relation connection='excel-direct.14qc7jn1p9hm9v1dnxv8a0iqpm33' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:K14839:no:A1:K14839:0' header='yes' outcome='2'>
+                  <column datatype='string' name='work_year' ordinal='0' />
+                  <column datatype='string' name='experience_level' ordinal='1' />
+                  <column datatype='string' name='employment_type' ordinal='2' />
+                  <column datatype='string' name='job_title' ordinal='3' />
+                  <column datatype='integer' name='salary' ordinal='4' />
+                  <column datatype='string' name='salary_currency' ordinal='5' />
+                  <column datatype='integer' name='salary_in_usd' ordinal='6' />
+                  <column datatype='string' name='employee_residence' ordinal='7' />
+                  <column datatype='integer' name='remote_ratio' ordinal='8' />
+                  <column datatype='string' name='company_location' ordinal='9' />
+                  <column datatype='string' name='company_size' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Question #1. How does the supply of data science jobs change by job category over the years?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_sorted_data_salaries_2024)' name='federated.10xq3zz1x7dloa111qu8v1atzqmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xq3zz1x7dloa111qu8v1atzqmx'>
+            <column-instance column='[job_title]' derivation='Count' name='[cnt:job_title:qk]' pivot='key' type='quantitative' />
+            <column caption='Job Title' datatype='string' name='[job_title]' role='dimension' type='nominal' />
+            <column-instance column='[job_title]' derivation='None' name='[none:job_title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[work_year]' derivation='None' name='[none:work_year:nk]' pivot='key' type='nominal' />
+            <column caption='Work Year' datatype='string' name='[work_year]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Analyst&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Science&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Scientist&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Machine_Learning_Scientist&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]' direction='DESC' using='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:job_title:qk]' />
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]'>
+            <groupfilter function='empty-level' member='[none:work_year:nk]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:job_title:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:job_title:qk]' />
+              <text column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]' />
+              <text column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' />
+              <color column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{99701F1C-0D08-4530-92CF-A6606563C1AB}' />
+    </worksheet>
+    <worksheet name='Question #2. How has salary in the data science sector evolved over the years?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_sorted_data_salaries_2024)' name='federated.10xq3zz1x7dloa111qu8v1atzqmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xq3zz1x7dloa111qu8v1atzqmx'>
+            <column-instance column='[salary_in_usd]' derivation='Avg' name='[avg:salary_in_usd:qk]' pivot='key' type='quantitative' />
+            <column caption='Job Title' datatype='string' name='[job_title]' role='dimension' type='nominal' />
+            <column-instance column='[salary_in_usd]' derivation='Max' name='[max:salary_in_usd:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[salary_in_usd]' derivation='Min' name='[min:salary_in_usd:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[job_title]' derivation='None' name='[none:job_title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[work_year]' derivation='None' name='[none:work_year:nk]' pivot='key' type='nominal' />
+            <column caption='Salary In Usd' datatype='integer' name='[salary_in_usd]' role='measure' type='quantitative' />
+            <column caption='Work Year' datatype='string' name='[work_year]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10xq3zz1x7dloa111qu8v1atzqmx].[min:salary_in_usd:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10xq3zz1x7dloa111qu8v1atzqmx].[max:salary_in_usd:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.10xq3zz1x7dloa111qu8v1atzqmx].[min:salary_in_usd:qk]&quot;</bucket>
+              <bucket>&quot;[federated.10xq3zz1x7dloa111qu8v1atzqmx].[max:salary_in_usd:qk]&quot;</bucket>
+              <bucket>&quot;[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' included-values='in-range'>
+            <min>15000.0</min>
+            <max>405000.0</max>
+          </filter>
+          <filter class='quantitative' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[max:salary_in_usd:qk]' included-values='in-range' />
+          <filter class='quantitative' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[min:salary_in_usd:qk]' included-values='in-range' />
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Analyst&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Scientist&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:work_year:nk]' member='&quot;2020&quot;' />
+              <groupfilter function='member' level='[none:work_year:nk]' member='&quot;2021&quot;' />
+              <groupfilter function='member' level='[none:work_year:nk]' member='&quot;2022&quot;' />
+              <groupfilter function='member' level='[none:work_year:nk]' member='&quot;2023&quot;' />
+              <groupfilter function='member' level='[none:work_year:nk]' member='&quot;2024&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[:Measure Names]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[min:salary_in_usd:qk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[max:salary_in_usd:qk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[Multiple Values]' scope='rows' value='Salary in USD' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[:Measure Names]' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[Multiple Values]</rows>
+        <cols>([federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk] / ([federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk] / [federated.10xq3zz1x7dloa111qu8v1atzqmx].[:Measure Names]))</cols>
+      </table>
+      <simple-id uuid='{41A10944-7B53-4784-AE51-EB993EE1F84A}' />
+    </worksheet>
+    <worksheet name='Question #3. Which data science job role or title has seen the largest increase in pay in recent years?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_sorted_data_salaries_2024)' name='federated.10xq3zz1x7dloa111qu8v1atzqmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xq3zz1x7dloa111qu8v1atzqmx'>
+            <column-instance column='[salary_in_usd]' derivation='Avg' name='[avg:salary_in_usd:qk]' pivot='key' type='quantitative' />
+            <column caption='Job Title' datatype='string' name='[job_title]' role='dimension' type='nominal' />
+            <column-instance column='[job_title]' derivation='None' name='[none:job_title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[work_year]' derivation='None' name='[none:work_year:nk]' pivot='key' type='nominal' />
+            <column caption='Salary In Usd' datatype='integer' name='[salary_in_usd]' role='measure' type='quantitative' />
+            <column caption='Work Year' datatype='string' name='[work_year]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Analyst&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Scientist&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Machine_Learning_Infrastructure_Engineer&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]'>
+            <groupfilter function='level-members' level='[none:work_year:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]' value='384' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' />
+              <text column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]</rows>
+        <cols>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]</cols>
+      </table>
+      <simple-id uuid='{25A5583E-689D-46ED-A6A3-E8004957B7FB}' />
+    </worksheet>
+    <worksheet name='Question #4. What is the difference in pay between data science jobs that are completely remote and those that require physical presence?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_sorted_data_salaries_2024)' name='federated.10xq3zz1x7dloa111qu8v1atzqmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xq3zz1x7dloa111qu8v1atzqmx'>
+            <column-instance column='[salary_in_usd]' derivation='Avg' name='[avg:salary_in_usd:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[job_title]' derivation='Count' name='[cnt:job_title:qk]' pivot='key' type='quantitative' />
+            <column caption='Job Title' datatype='string' name='[job_title]' role='dimension' type='nominal' />
+            <column-instance column='[job_title]' derivation='None' name='[none:job_title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[remote_ratio]' derivation='None' name='[none:remote_ratio:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[work_year]' derivation='None' name='[none:work_year:nk]' pivot='key' type='nominal' />
+            <column caption='Remote Ratio' datatype='integer' name='[remote_ratio]' role='measure' type='quantitative' />
+            <column caption='Salary In Usd' datatype='integer' name='[salary_in_usd]' role='measure' type='quantitative' />
+            <column caption='Work Year' datatype='string' name='[work_year]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' included-values='in-range' />
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Analyst&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Science&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Scientist&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Machine_Learning_Scientist&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]' direction='DESC' using='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:job_title:qk]' />
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:remote_ratio:ok]'>
+            <groupfilter function='level-members' level='[none:remote_ratio:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]'>
+            <groupfilter function='level-members' level='[none:work_year:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:remote_ratio:ok]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' scope='rows' value='Average Salary In Usd' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:job_title:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size-bar' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:remote_ratio:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]</rows>
+        <cols>([federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk] / [federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk])</cols>
+      </table>
+      <simple-id uuid='{DA689504-B766-44CA-B209-333F6A471E8E}' />
+    </worksheet>
+    <worksheet name='Question #5. How do the salaries of data scientists vary depending on whether they are freelancers or full-time employees?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_sorted_data_salaries_2024)' name='federated.10xq3zz1x7dloa111qu8v1atzqmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xq3zz1x7dloa111qu8v1atzqmx'>
+            <column-instance column='[salary_in_usd]' derivation='Avg' name='[avg:salary_in_usd:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[job_title]' derivation='Count' name='[cnt:job_title:qk]' pivot='key' type='quantitative' />
+            <column caption='Employment Type' datatype='string' name='[employment_type]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;FL&quot;' value='Freelance' />
+                <alias key='&quot;FT&quot;' value='Full Time' />
+                <alias key='&quot;PT&quot;' value='Part Time' />
+              </aliases>
+            </column>
+            <column caption='Job Title' datatype='string' name='[job_title]' role='dimension' type='nominal' />
+            <column-instance column='[employment_type]' derivation='None' name='[none:employment_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[job_title]' derivation='None' name='[none:job_title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[remote_ratio]' derivation='None' name='[none:remote_ratio:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[work_year]' derivation='None' name='[none:work_year:nk]' pivot='key' type='nominal' />
+            <column caption='Remote Ratio' datatype='integer' name='[remote_ratio]' role='measure' type='quantitative' />
+            <column caption='Salary In Usd' datatype='integer' name='[salary_in_usd]' role='measure' type='quantitative' />
+            <column caption='Work Year' datatype='string' name='[work_year]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' included-values='in-range' />
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:employment_type:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:employment_type:nk]' member='&quot;FL&quot;' />
+              <groupfilter function='member' level='[none:employment_type:nk]' member='&quot;FT&quot;' />
+              <groupfilter function='member' level='[none:employment_type:nk]' member='&quot;PT&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Analyst&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Scientist&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Machine_Learning_Scientist&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]' direction='DESC' using='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:job_title:qk]' />
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:remote_ratio:ok]'>
+            <groupfilter function='level-members' level='[none:remote_ratio:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]'>
+            <groupfilter function='level-members' level='[none:work_year:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:remote_ratio:ok]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:employment_type:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' scope='cols' value='Average Salary In Usd' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:job_title:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size-bar' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:employment_type:nk] / ([federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk] / [federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]))</rows>
+        <cols>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]</cols>
+      </table>
+      <simple-id uuid='{D457BFDF-229B-489A-8366-F832C4F7BCA8}' />
+    </worksheet>
+    <worksheet name='Question #6. What is the relationship between level of experience and salary in the field of data science?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_sorted_data_salaries_2024)' name='federated.10xq3zz1x7dloa111qu8v1atzqmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xq3zz1x7dloa111qu8v1atzqmx'>
+            <column-instance column='[salary_in_usd]' derivation='Avg' name='[avg:salary_in_usd:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[job_title]' derivation='Count' name='[cnt:job_title:qk]' pivot='key' type='quantitative' />
+            <column caption='Employment Type' datatype='string' name='[employment_type]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;FL&quot;' value='Freelance' />
+                <alias key='&quot;FT&quot;' value='Full Time' />
+                <alias key='&quot;PT&quot;' value='Part Time' />
+              </aliases>
+            </column>
+            <column caption='Experience Level' datatype='string' name='[experience_level]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;EN&quot;' value='Entry' />
+                <alias key='&quot;MI&quot;' value='Mid' />
+                <alias key='&quot;SE&quot;' value='Senior' />
+              </aliases>
+            </column>
+            <column caption='Job Title' datatype='string' name='[job_title]' role='dimension' type='nominal' />
+            <column-instance column='[employment_type]' derivation='None' name='[none:employment_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[experience_level]' derivation='None' name='[none:experience_level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[job_title]' derivation='None' name='[none:job_title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[work_year]' derivation='None' name='[none:work_year:nk]' pivot='key' type='nominal' />
+            <column caption='Salary In Usd' datatype='integer' name='[salary_in_usd]' role='measure' type='quantitative' />
+            <column caption='Work Year' datatype='string' name='[work_year]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' included-values='in-range' />
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:employment_type:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:employment_type:nk]' member='&quot;FL&quot;' />
+              <groupfilter function='member' level='[none:employment_type:nk]' member='&quot;FT&quot;' />
+              <groupfilter function='member' level='[none:employment_type:nk]' member='&quot;PT&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:experience_level:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:experience_level:nk]' member='&quot;EN&quot;' />
+              <groupfilter function='member' level='[none:experience_level:nk]' member='&quot;MI&quot;' />
+              <groupfilter function='member' level='[none:experience_level:nk]' member='&quot;SE&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Analyst&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Scientist&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]' direction='DESC' using='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:job_title:qk]' />
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]'>
+            <groupfilter function='level-members' level='[none:work_year:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:employment_type:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:experience_level:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' scope='rows' value='Average Salary In Usd' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:job_title:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size-bar' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]</rows>
+        <cols>([federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk] / ([federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:experience_level:nk] / [federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]))</cols>
+      </table>
+      <simple-id uuid='{428FF1CF-1555-4412-A36D-7AB8E8DA9AD5}' />
+    </worksheet>
+    <worksheet name='Question #7. What level of experience is most sought after in data science jobs: entry-level, mid-level or senior-level?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_sorted_data_salaries_2024)' name='federated.10xq3zz1x7dloa111qu8v1atzqmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xq3zz1x7dloa111qu8v1atzqmx'>
+            <column-instance column='[experience_level]' derivation='Count' name='[cnt:experience_level:qk]' pivot='key' type='quantitative' />
+            <column caption='Experience Level' datatype='string' name='[experience_level]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;EN&quot;' value='Entry' />
+                <alias key='&quot;MI&quot;' value='Mid' />
+                <alias key='&quot;SE&quot;' value='Senior' />
+              </aliases>
+            </column>
+            <column caption='Job Title' datatype='string' name='[job_title]' role='dimension' type='nominal' />
+            <column-instance column='[experience_level]' derivation='None' name='[none:experience_level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[job_title]' derivation='None' name='[none:job_title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[work_year]' derivation='None' name='[none:work_year:nk]' pivot='key' type='nominal' />
+            <column caption='Work Year' datatype='string' name='[work_year]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:experience_level:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:experience_level:nk]' member='&quot;EN&quot;' />
+              <groupfilter function='member' level='[none:experience_level:nk]' member='&quot;MI&quot;' />
+              <groupfilter function='member' level='[none:experience_level:nk]' member='&quot;SE&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]'>
+            <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Scientist&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]'>
+            <groupfilter function='level-members' level='[none:work_year:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:experience_level:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:experience_level:qk]' scope='cols' value='Count of Experience Level' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:experience_level:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:experience_level:qk]</rows>
+        <cols>([federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk] / ([federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:experience_level:nk] / [federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]))</cols>
+      </table>
+      <simple-id uuid='{6A9F7380-49DC-47FD-92E8-EDE0FFF7CBC0}' />
+    </worksheet>
+    <worksheet name='Question #8. Which companies have the highest demand for data science jobs?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_sorted_data_salaries_2024)' name='federated.10xq3zz1x7dloa111qu8v1atzqmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xq3zz1x7dloa111qu8v1atzqmx'>
+            <column-instance column='[job_title]' derivation='Count' name='[cnt:job_title:qk]' pivot='key' type='quantitative' />
+            <column caption='Company Location' datatype='string' name='[company_location]' role='dimension' type='nominal' />
+            <column caption='Job Title' datatype='string' name='[job_title]' role='dimension' type='nominal' />
+            <column-instance column='[company_location]' derivation='None' name='[none:company_location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[job_title]' derivation='None' name='[none:job_title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[work_year]' derivation='None' name='[none:work_year:nk]' pivot='key' type='nominal' />
+            <column caption='Work Year' datatype='string' name='[work_year]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Analyst&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Science&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Science_Analyst&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Data_Scientist&quot;' />
+              <groupfilter function='member' level='[none:job_title:nk]' member='&quot;Machine_Learning_Scientist&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]'>
+            <groupfilter function='member' level='[none:work_year:nk]' member='&quot;2020&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' value='225' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:company_location:nk]' value='208' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:job_title:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk] / [federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:company_location:nk])</rows>
+        <cols>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]</cols>
+      </table>
+      <simple-id uuid='{3E9F67A7-B007-4F85-AED6-D4E45A673EC7}' />
+    </worksheet>
+    <worksheet name='Question #9. What is the relationship between company size and the level of salaries offered in data science?'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cleaned_sorted_data_salaries_2024)' name='federated.10xq3zz1x7dloa111qu8v1atzqmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10xq3zz1x7dloa111qu8v1atzqmx'>
+            <column-instance column='[salary_in_usd]' derivation='Avg' name='[avg:salary_in_usd:qk]' pivot='key' type='quantitative' />
+            <column caption='Company Size' datatype='string' name='[company_size]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;L&quot;' value='Large' />
+                <alias key='&quot;M&quot;' value='Medium' />
+                <alias key='&quot;S&quot;' value='Short' />
+              </aliases>
+            </column>
+            <column-instance column='[company_size]' derivation='None' name='[none:company_size:nk]' pivot='key' type='nominal' />
+            <column-instance column='[work_year]' derivation='None' name='[none:work_year:nk]' pivot='key' type='nominal' />
+            <column caption='Salary In Usd' datatype='integer' name='[salary_in_usd]' role='measure' type='quantitative' />
+            <column caption='Work Year' datatype='string' name='[work_year]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' included-values='in-range' />
+          <filter class='categorical' column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]'>
+            <groupfilter function='level-members' level='[none:work_year:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]</column>
+            <column>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]</rows>
+        <cols>([federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:company_size:nk] / [federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk])</cols>
+      </table>
+      <simple-id uuid='{6E76A58B-D77A-478C-B4EC-A5AB11D353AF}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Question #1. How does the supply of data science jobs change by job category over the years?'>
+      <cards>
+        <edge name='left'>
+          <strip size='210'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='215'>
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[cnt:job_title:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{1F3B359B-86DE-4217-BE6B-D1FDF3A240F1}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Question #2. How has salary in the data science sector evolved over the years?'>
+      <cards>
+        <edge name='left'>
+          <strip size='209'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='214'>
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' type='filter' />
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[min:salary_in_usd:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[max:salary_in_usd:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{DBAE558A-8263-4A5F-BFD0-07DB12892AC4}' />
+    </window>
+    <window class='worksheet' name='Question #3. Which data science job role or title has seen the largest increase in pay in recent years?'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='215'>
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{CA55A015-92D4-4BA3-A084-A902A0C75B55}' />
+    </window>
+    <window class='worksheet' name='Question #4. What is the difference in pay between data science jobs that are completely remote and those that require physical presence?'>
+      <cards>
+        <edge name='left'>
+          <strip size='210'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='215'>
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' type='filter' />
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:remote_ratio:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:remote_ratio:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3A94EC32-C57F-4778-B4AD-408AE4A87ACE}' />
+    </window>
+    <window class='worksheet' name='Question #5. How do the salaries of data scientists vary depending on whether they are freelancers or full-time employees?'>
+      <cards>
+        <edge name='left'>
+          <strip size='210'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='215'>
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' type='filter' />
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:employment_type:nk]' type='filter' />
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:remote_ratio:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:job_title:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D8C2C764-B6B8-462E-BAB0-0B80DB6776A9}' />
+    </window>
+    <window class='worksheet' name='Question #6. What is the relationship between level of experience and salary in the field of data science?'>
+      <cards>
+        <edge name='left'>
+          <strip size='210'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='215'>
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' type='filter' />
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:employment_type:nk]' type='filter' />
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{64D4309A-FD2B-4AA3-B34D-0F2245566CE3}' />
+    </window>
+    <window class='worksheet' name='Question #7. What level of experience is most sought after in data science jobs: entry-level, mid-level or senior-level?'>
+      <cards>
+        <edge name='left'>
+          <strip size='210'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='215'>
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4D7FD360-887A-4276-9A90-C069580025E9}' />
+    </window>
+    <window class='worksheet' name='Question #8. Which companies have the highest demand for data science jobs?'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='217'>
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BF45EEED-0980-48CB-B350-093AB2CCF3AF}' />
+    </window>
+    <window class='worksheet' name='Question #9. What is the relationship between company size and the level of salaries offered in data science?'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='216'>
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' type='filter' />
+            <card param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[avg:salary_in_usd:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.10xq3zz1x7dloa111qu8v1atzqmx].[none:work_year:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EB6CCD8F-0FFC-4FFE-92AF-556DE7348134}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Question #2. How has salary in the data science sector evolved over the years?' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
